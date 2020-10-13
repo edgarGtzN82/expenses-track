@@ -1,0 +1,15 @@
+.AntForms {
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 2px 1px;
+    animation: moveIn ease-in 1s;
+    padding: 20px;
+    ;
+}
+
+@keyframes moveIn {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateY(0);}
+}

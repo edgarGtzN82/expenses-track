@@ -1,0 +1,21 @@
+.ExpenseForm {
+    width: 60%;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 2px 1px;
+    ;
+}
+
+
+.ExpenseForm input {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+
+}
+
+@keyframes moveIn {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(0);}
+}
