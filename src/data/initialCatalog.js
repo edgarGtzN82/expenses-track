@@ -2,7 +2,7 @@
 
 const initialCatalog = [
     {
-        canName: 'Hogar',
+        name: 'Hogar',
         subCats: [
             'Pago Depa',
             'Agua',
@@ -12,7 +12,7 @@ const initialCatalog = [
         ]
     },
     {
-        canName: 'Educación',
+        name: 'Educación',
         subCats: [
             'Colegiatura',
             'Inscripción',
@@ -22,7 +22,7 @@ const initialCatalog = [
         ]
     },
     {
-        canName: 'Trasporte',
+        name: 'Trasporte',
         subCats: [
             'Gasolina',
             'Mantenimiento',
@@ -32,14 +32,14 @@ const initialCatalog = [
         ]
     },
     {
-        canName: 'Salud',
+        name: 'Salud',
         subCats: [
             'Consultas Médicas',
             'Medicamentos'
         ]
     },
     {
-        canName: 'Vida Diaria',
+        name: 'Vida Diaria',
         subCats: [
             'Soriana',
             'SAMs',
@@ -49,14 +49,14 @@ const initialCatalog = [
         ]
     },
     {
-        canName: 'Entretenimiento',
+        name: 'Entretenimiento',
         subCats: [
             'Cine',
             'Vacacones'
         ]
     },
     {
-        canName: 'Subscripciones',
+        name: 'Subscripciones',
         subCats: [
             'Netflix',
             'Prime'

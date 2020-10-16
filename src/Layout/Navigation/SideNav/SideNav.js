@@ -1,5 +1,8 @@
 import React from 'react';
 import "../Nav.css";
+import 'antd/dist/antd.css';
+import NavItems from '../NavItems/NavItems';
+
 
 const SideNav = ({ close, display }) => {
     let Classes = "side-nav-bar";
@@ -8,13 +11,7 @@ const SideNav = ({ close, display }) => {
     }
     return (
         <nav className={Classes}>
-            <ul>
-                <li onClick={close}>
-                    <i className="material-icons">close</i>
-                </li>
-                <li onClick={close} > Dashboard </li>
-                <li onClick={close} > Services</li>
-            </ul>
+            <NavItems clicked={close} mode='inline' />
         </nav>
     );
 };

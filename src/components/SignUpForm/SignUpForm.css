@@ -1,0 +1,7 @@
+.RegisterForm {
+    border: 2px solid #ccc;
+    max-width: 80%;
+    max-height: 90%;
+    margin: auto;
+    padding: 5px;
+}
